@@ -1,4 +1,5 @@
 import axios from 'axios';
+import 'server-only';
 
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
