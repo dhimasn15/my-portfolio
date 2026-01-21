@@ -43,27 +43,6 @@ const Hero = () => {
               Saya tertarik membangun website dan aplikasi yang cepat, mudah digunakan, dan tampil rapi di berbagai perangkat. Fokus saya ada di pengembangan web modern, dari tampilan hingga sistem di balik layar.
             </p>
 
-            {/* Stats */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-              className="flex flex-wrap gap-6 pt-4"
-            >
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 dark:text-white">25+</div>
-                <div className="text-gray-600 dark:text-gray-400">Proyek</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 dark:text-white">3+</div>
-                <div className="text-gray-600 dark:text-gray-400">Tahun Pengalaman</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 dark:text-white">100%</div>
-                <div className="text-gray-600 dark:text-gray-400">Komitmen</div>
-              </div>
-            </motion.div>
-
             {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -264,9 +243,7 @@ const Hero = () => {
                   </div>
                 </div>
                 <div className="text-yellow-600 dark:text-yellow-400">{'}'}</div>
-                <div className="mt-4">
-                  <span className="text-gray-600 dark:text-gray-400">// Siap ngerjain proyek baru!</span>
-                </div>
+                
               </div>
             </motion.div>
           </motion.div>

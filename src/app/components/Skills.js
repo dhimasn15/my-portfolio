@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Code, Database, Server, Palette, Smartphone, Terminal } from 'lucide-react';
 
 const Skills = () => {
-  // Skills data fokus pada Full Stack Development
+  
   const [skills] = useState([
     // Frontend Skills
     { name: 'HTML/CSS', level: 85, category: 'Frontend' },

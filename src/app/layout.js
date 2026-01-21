@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import './globals.css'; // Pastikan file ini diimpor hanya sekali
+import './globals.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 

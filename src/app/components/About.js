@@ -68,7 +68,7 @@ const About = () => {
       setContributionData(contributions);
     } catch (error) {
       console.error('Error fetching GitHub data:', error);
-      // Fallback to mock data if API fails
+      
       setGithubData(getMockGitHubData());
       setContributionData(generateContributionData());
     } finally {
@@ -76,12 +76,11 @@ const About = () => {
     }
   };
 
-  // Fetch real contribution data using GitHub GraphQL API
   const fetchContributionData = async (username) => {
-    const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+    const token = process.env.GITHUB_TOKEN || process.env.NEXT_PUBLIC_GITHUB_TOKEN;
     
     if (!token) {
-      console.warn('GitHub token not found in environment variables. Menggunakan mock data.');
+      console.warn('GitHub token not found. Using mock contribution data.');
       return generateContributionData();
     }
 
@@ -283,8 +282,11 @@ const About = () => {
                      Agustus 2025
                     </span>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                  <p className="text-gray-600 font-extrabold dark:text-white text-xs">
                     B3 (Belajar Bareng BASIC)
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                    Menjadi pemateri dan pengajar mengenai materi HTML.
                   </p>
                 </div>
                 <div>
@@ -296,8 +298,11 @@ const About = () => {
                      November - Desember 2025
                     </span>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                  <p className="text-gray-600 font-extrabold dark:text-white text-xs">
                     FORKABES
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                    Menjadi pemateri dalam proker FORKABES dengan materi HTML, CSS, dan JavaScript.
                   </p>
                 </div>
               </div>
