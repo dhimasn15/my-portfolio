@@ -1,16 +1,13 @@
 import { NextResponse } from 'next/server';
-import { getGitHubContributions, getGitHubContributionCalendar } from '@/app/utils/github';
+import { getGitHubContributions } from '@/app/utils/github';
 
 export async function GET() {
   try {
-    const [contributionsData, contributionCalendar] = await Promise.all([
-      getGitHubContributions(),
-      getGitHubContributionCalendar(),
-    ]);
+    const contributionsData = await getGitHubContributions();
 
     if (!contributionsData) {
       return NextResponse.json(
-        { error: 'Gagal to fetch GitHub data' },
+        { error: 'Gagal fetch GitHub data' },
         { status: 500 }
       );
     }
@@ -21,7 +18,6 @@ export async function GET() {
       pinnedRepos: contributionsData.pinnedRepos,
       contributions: contributionsData.contributions,
       recentActivity: contributionsData.recentActivity,
-      contributionCalendar,
       lastUpdated: new Date().toISOString(),
     });
   } catch (error) {
