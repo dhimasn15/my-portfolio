@@ -1,4 +1,3 @@
-
 {
   "profile": {
     "name": "Dhimas Nurhidayat",
@@ -275,28 +274,6 @@
         "Easy-to-read data views.",
         "An initial structure for further feature development."
       ]
-    },
-    {
-      "title": "Deleniti velit sit",
-      "slug": "officiis-ut-quis-opt",
-      "shortDescription": "Nam pariatur Eos v",
-      "description": " Quaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolor",
-      "category": "Neque eos ut qui cum",
-      "role": "Reiciendis minim et ",
-      "technologies": [],
-      "thumbnail": "/uploads/projects/mtvcds5n-new.png",
-      "images": [],
-      "githubUrl": "https://github.com/dhimasn15/my-portfolio",
-      "liveUrl": "https://dhimas-portofolio.vercel.app/",
-      "problem": "Sit occaecat quia co",
-      "solution": "Tempora quis et reru",
-      "features": [],
-      "status": "published",
-      "featured": true,
-      "order": 22,
-      "id": "proj-mtvcf1iz-df8nc",
-      "createdAt": "2026-09-10",
-      "updatedAt": "2026-09-10"
     }
   ],
   "experience": [
