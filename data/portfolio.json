@@ -1,0 +1,510 @@
+
+{
+  "profile": {
+    "name": "Dhimas Nurhidayat",
+    "shortName": "DHIMAS.N",
+    "headline": "Full Stack Developer",
+    "bio": "Saya membangun aplikasi web, sistem backend, dan produk digital yang praktis - cepat, mudah digunakan, dan tampil rapi di berbagai perangkat.",
+    "longBio": "Saya mahasiswa Informatika di Universitas Pembangunan Jaya dengan fokus pada full-stack development. Latar belakang Multimedia dari SMK memberi fondasi desain, lalu saya mendalaminya ke pengembangan web modern - dari tampilan hingga sistem di balik layar.",
+    "location": "Tangerang Selatan, Banten, Indonesia",
+    "availability": true,
+    "availabilityNote": "Available for selected freelance projects",
+    "email": "dhimasdn15@gmail.com",
+    "phone": "+62 895-1610-7824",
+    "profileImage": "/pp-nobg.png",
+    "resumeUrl": "/cv-dhimas-nurhidayat.pdf",
+    "headline_en": "Full Stack Developer",
+    "bio_en": "I build web applications, backend systems, and practical digital products - fast, easy to use, and clean across devices.",
+    "longBio_en": "I am an Informatics student at Universitas Pembangunan Jaya focused on full-stack development. A Multimedia background from vocational school gave me a design foundation, which I then deepened into modern web development - from the interface down to the systems behind it.",
+    "location_en": "South Tangerang, Banten, Indonesia",
+    "availabilityNote_en": "Available for selected freelance projects"
+  },
+  "socials": {
+    "github": "",
+    "linkedin": "",
+    "email": "",
+    "instagram": "",
+    "whatsapp": "https://wa.me/6289516107824",
+    "website": ""
+  },
+  "settings": {
+    "siteTitle": "Dhimas Nurhidayat - Full Stack Developer",
+    "siteDescription": "Personal website of Dhimas Nurhidayat, Informatics student and Full Stack Developer based in Tangerang Selatan, Indonesia.",
+    "ogImage": "/pp.jpg",
+    "accent": "cobalt",
+    "showGithubSection": true,
+    "showContactForm": true,
+    "siteTitle_en": "Dhimas Nurhidayat - Full Stack Developer",
+    "siteDescription_en": "Personal website of Dhimas Nurhidayat, Informatics student and Full Stack Developer based in South Tangerang, Indonesia."
+  },
+  "projects": [
+    {
+      "id": "tasku",
+      "slug": "tasku",
+      "title": "Tasku",
+      "shortDescription": "Mobile-first task manager for daily to-dos and schedules.",
+      "description": "Tasku adalah task manager mobile-first untuk mengelola to-do dan jadwal harian. Fokus pada produktivitas dengan UI bersih, filter cepat, dan pengingat tugas.",
+      "category": "WEB",
+      "role": "Full Stack Developer",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "API"
+      ],
+      "thumbnail": "/projects/tasku/tasku1.png",
+      "images": [
+        "/projects/tasku/tasku1.png",
+        "/projects/tasku/tasku2.png",
+        "/projects/tasku/tasku3.png",
+        "/projects/tasku/tasku4.png"
+      ],
+      "githubUrl": "https://github.com/dhimasn15/tasku",
+      "liveUrl": "https://github.com/dhimasn15/tasku",
+      "problem": "Jadwal harian yang berantakan membutuhkan alat pencatat yang cepat dan mudah diakses dari ponsel.",
+      "solution": "Aplikasi task manager mobile-first dengan filter cepat dan pengingat, dibangun dengan React dan Tailwind.",
+      "features": [
+        "Kelola to-do dan jadwal harian secara mobile-first.",
+        "UI bersih dengan fokus pada produktivitas.",
+        "Integrasi notifikasi dan pengingat tugas."
+      ],
+      "status": "published",
+      "featured": true,
+      "order": 1,
+      "createdAt": "2024-11-02",
+      "updatedAt": "2024-11-02",
+      "title_en": "Tasku",
+      "shortDescription_en": "Mobile-first task manager for daily to-dos and schedules.",
+      "description_en": "Tasku is a mobile-first task manager for to-dos and daily schedules. It focuses on productivity with a clean UI, quick filters, and task reminders.",
+      "role_en": "Full Stack Developer",
+      "problem_en": "A messy daily schedule needs a fast capture tool that is easy to reach from a phone.",
+      "solution_en": "A mobile-first task manager with quick filters and reminders, built with React and Tailwind.",
+      "features_en": [
+        "Manage to-dos and daily schedules mobile-first.",
+        "A clean UI focused on productivity.",
+        "Notification and task reminder integration."
+      ]
+    },
+    {
+      "id": "pohon-untuk-esok",
+      "slug": "pohon-untuk-esok",
+      "title": "Pohon Untuk Esok",
+      "shortDescription": "Community tree-donation tracker with progress cards.",
+      "description": "Platform donasi pohon berbasis komunitas dengan tracking progres, visual chart, dan halaman kampanye yang mudah dibagikan.",
+      "category": "WEB",
+      "role": "Full Stack Developer",
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "Chart.js"
+      ],
+      "thumbnail": "/projects/pohon-cover.png",
+      "images": [
+        "/projects/pohonuntukesok/pohon1.png",
+        "/projects/pohonuntukesok/pohon2.png",
+        "/projects/pohonuntukesok/pohon3.png",
+        "/projects/pohonuntukesok/pohon4.png",
+        "/projects/pohonuntukesok/pohon5.png",
+        "/projects/pohonuntukesok/pohon6.png",
+        "/projects/pohonuntukesok/pohon7.png",
+        "/projects/pohonuntukesok/pohon8.png",
+        "/projects/pohonuntukesok/pohon9.png",
+        "/projects/pohonuntukesok/pohon10.png"
+      ],
+      "githubUrl": "https://github.com/dhimasn15/pohonuntukesok",
+      "liveUrl": "https://github.com/dhimasn15/pohonuntukesok",
+      "problem": "Gerakan donasi lingkungan butuh halaman kampanye yang transparan dan mudah dibagikan.",
+      "solution": "Tracker donasi dengan chart progres dan kartu milestone yang shareable, dibangun dengan Next.js.",
+      "features": [
+        "Tracking donasi pohon dengan visual chart.",
+        "Halaman kampanye yang mudah dibagikan.",
+        "UI ramah komunitas untuk gerakan lingkungan."
+      ],
+      "status": "published",
+      "featured": true,
+      "order": 2,
+      "createdAt": "2024-09-01",
+      "updatedAt": "2024-09-01",
+      "title_en": "Pohon Untuk Esok",
+      "shortDescription_en": "Community tree-donation tracker with progress cards.",
+      "description_en": "A community-driven tree donation platform with progress tracking, visual charts, and shareable campaign pages.",
+      "role_en": "Full Stack Developer",
+      "problem_en": "An environmental donation movement needs a transparent, easily shareable campaign page.",
+      "solution_en": "A donation tracker with progress charts and shareable milestone cards, built with Next.js.",
+      "features_en": [
+        "Tree donation tracking with a visual chart.",
+        "Campaign pages that are easy to share.",
+        "Community-friendly UI for an environmental movement."
+      ]
+    },
+    {
+      "id": "ibu-hamil-app",
+      "slug": "ibu-hamil-app",
+      "title": "Ibu Hamil App",
+      "shortDescription": "Health companion for expecting mothers.",
+      "description": "Aplikasi pendamping untuk ibu hamil: tips mingguan, pencatatan jadwal kontrol, dan catatan penting dengan UI sederhana.",
+      "category": "WEB",
+      "role": "Frontend Developer",
+      "technologies": [
+        "React",
+        "Firebase",
+        "Tailwind CSS"
+      ],
+      "thumbnail": "/projects/ibuhamil-cover.png",
+      "images": [
+        "/projects/ibuhamilapp/ibuapp1.png",
+        "/projects/ibuhamilapp/ibuapp2.png",
+        "/projects/ibuhamilapp/ibuapp3.png",
+        "/projects/ibuhamilapp/ibuapp4.png",
+        "/projects/ibuhamilapp/ibuapp5.png",
+        "/projects/ibuhamilapp/ibuapp6.png",
+        "/projects/ibuhamilapp/ibuapp7.png",
+        "/projects/ibuhamilapp/ibuapp8.png"
+      ],
+      "githubUrl": "https://github.com/dhimasn15/ibu-hamil-app",
+      "liveUrl": "https://github.com/dhimasn15/ibu-hamil-app",
+      "problem": "Ibu hamil membutuhkan pengingat jadwal kontrol dan panduan mingguan yang mudah diakses.",
+      "solution": "Aplikasi pendamping dengan tips mingguan dan pencatatan jadwal, dibangun dengan React dan Firebase.",
+      "features": [
+        "Tips mingguan untuk ibu hamil.",
+        "Pencatatan jadwal kontrol dan catatan penting.",
+        "UI sederhana dan nyaman digunakan."
+      ],
+      "status": "published",
+      "featured": true,
+      "order": 3,
+      "createdAt": "2024-08-18",
+      "updatedAt": "2024-08-18",
+      "title_en": "Ibu Hamil App",
+      "shortDescription_en": "Health companion for expecting mothers.",
+      "description_en": "A companion app for expecting mothers: weekly tips, appointment scheduling, and notes with a simple UI.",
+      "role_en": "Frontend Developer",
+      "problem_en": "Expecting mothers need appointment reminders and a weekly guide that is easy to access.",
+      "solution_en": "A companion app with weekly tips and appointment notes, built with React and Firebase.",
+      "features_en": [
+        "Weekly tips for expecting mothers.",
+        "Appointment scheduling and important notes.",
+        "A simple, comfortable UI."
+      ]
+    },
+    {
+      "id": "projek-bantenara",
+      "slug": "projek-bantenara",
+      "title": "Projek Bantenara",
+      "shortDescription": "Marketing landing page with CTA-focused layout.",
+      "description": "Landing page modern dengan fokus CTA, hero section responsif, dan layout bersih untuk kebutuhan marketing.",
+      "category": "WEB",
+      "role": "Frontend Developer",
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "thumbnail": "/projects/bantenara-cover.png",
+      "images": [
+        "/projects/bantenara/bantenara1.png",
+        "/projects/bantenara/bantenara2.png",
+        "/projects/bantenara/bantenara3.png",
+        "/projects/bantenara/bantenara4.png"
+      ],
+      "githubUrl": "https://github.com/dhimasn15/projekbantenara",
+      "liveUrl": "https://github.com/dhimasn15/projekbantenara",
+      "problem": "Produk membutuhkan landing page yang menjelaskan value dengan cepat dan mengarahkan ke CTA.",
+      "solution": "Landing page Next.js dengan hero responsif dan struktur section yang fokus pada konversi.",
+      "features": [
+        "Landing page modern dengan fokus CTA.",
+        "Hero section responsif dengan visual yang kuat.",
+        "Layout bersih untuk kebutuhan marketing."
+      ],
+      "status": "published",
+      "featured": false,
+      "order": 4,
+      "createdAt": "2024-07-10",
+      "updatedAt": "2024-07-10",
+      "title_en": "Projek Bantenara",
+      "shortDescription_en": "Marketing landing page with a CTA-focused layout.",
+      "description_en": "A modern landing page focused on CTAs, a responsive hero section, and a clean layout for marketing needs.",
+      "role_en": "Frontend Developer",
+      "problem_en": "A product needs a landing page that explains its value quickly and drives to a CTA.",
+      "solution_en": "A Next.js landing page with a responsive hero and a conversion-focused section structure.",
+      "features_en": [
+        "A modern landing page focused on CTAs.",
+        "A responsive hero section with strong visuals.",
+        "A clean layout for marketing needs."
+      ]
+    },
+    {
+      "id": "suruhleo-v1",
+      "slug": "suruhleo-v1",
+      "title": "SuruhLeo V1",
+      "shortDescription": "Logistics dashboard focusing on core delivery metrics.",
+      "description": "Iterasi pertama dashboard logistik yang fokus pada metrik inti pengiriman dengan tampilan data yang mudah dibaca.",
+      "category": "WEB",
+      "role": "Frontend Developer",
+      "technologies": [
+        "React",
+        "Tailwind CSS"
+      ],
+      "thumbnail": "/projects/suruhleo-cover.png",
+      "images": [
+        "/projects/suruhleo/suruh1.png",
+        "/projects/suruhleo/suruh2.png",
+        "/projects/suruhleo/suruh3.png",
+        "/projects/suruhleo/suruh4.png"
+      ],
+      "githubUrl": "https://github.com/dhimasn15/suruhleov1",
+      "liveUrl": "https://github.com/dhimasn15/suruhleov1",
+      "problem": "Operasional pengiriman butuh satu tampilan ringkas untuk metrik inti.",
+      "solution": "Dashboard React dengan kartu metrik dan tabel yang mudah dibaca sebagai fondasi fitur lanjutan.",
+      "features": [
+        "Dashboard logistik dengan metrik inti pengiriman.",
+        "Tampilan data yang mudah dibaca.",
+        "Struktur awal untuk pengembangan fitur lanjutan."
+      ],
+      "status": "published",
+      "featured": false,
+      "order": 5,
+      "createdAt": "2024-05-22",
+      "updatedAt": "2024-05-22",
+      "title_en": "SuruhLeo V1",
+      "shortDescription_en": "Logistics dashboard focusing on core delivery metrics.",
+      "description_en": "The first iteration of a logistics dashboard focused on core delivery metrics with easy-to-read data views.",
+      "role_en": "Frontend Developer",
+      "problem_en": "Delivery operations need one concise view for core metrics.",
+      "solution_en": "A React dashboard with metric cards and readable tables as a foundation for further features.",
+      "features_en": [
+        "A logistics dashboard with core delivery metrics.",
+        "Easy-to-read data views.",
+        "An initial structure for further feature development."
+      ]
+    },
+    {
+      "title": "Deleniti velit sit",
+      "slug": "officiis-ut-quis-opt",
+      "shortDescription": "Nam pariatur Eos v",
+      "description": " Quaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolorQuaerat dolore dolor",
+      "category": "Neque eos ut qui cum",
+      "role": "Reiciendis minim et ",
+      "technologies": [],
+      "thumbnail": "/uploads/projects/mtvcds5n-new.png",
+      "images": [],
+      "githubUrl": "https://github.com/dhimasn15/my-portfolio",
+      "liveUrl": "https://dhimas-portofolio.vercel.app/",
+      "problem": "Sit occaecat quia co",
+      "solution": "Tempora quis et reru",
+      "features": [],
+      "status": "published",
+      "featured": true,
+      "order": 22,
+      "id": "proj-mtvcf1iz-df8nc",
+      "createdAt": "2026-09-10",
+      "updatedAt": "2026-09-10"
+    }
+  ],
+  "experience": [
+    {
+      "id": "forkabez-html-css-js",
+      "title": "Pemateri HTML, CSS & JavaScript",
+      "company": "FORKABES",
+      "type": "Teaching",
+      "location": "Indonesia",
+      "startDate": "2025-11-01",
+      "endDate": "2025-12-31",
+      "current": false,
+      "description": "Menjadi pemateri dalam program kerja FORKABES dengan materi HTML, CSS, dan JavaScript - membimbing peserta dari dasar hingga implementasi interaktif.",
+      "responsibilities": [
+        "Menyusun materi HTML, CSS, dan JavaScript dari dasar.",
+        "Membimbing peserta lewat praktik langsung.",
+        "Menjawab pertanyaan dan mereview hasil latihan."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "order": 1,
+      "featured": true,
+      "title_en": "HTML, CSS & JavaScript Instructor",
+      "company_en": "FORKABES",
+      "type_en": "Teaching",
+      "description_en": "A speaker in the FORKABES work program covering HTML, CSS, and JavaScript - guiding participants from the basics to interactive implementation.",
+      "responsibilities_en": [
+        "Prepared HTML, CSS, and JavaScript materials from the ground up.",
+        "Guided participants through hands-on practice.",
+        "Answered questions and reviewed exercise results."
+      ]
+    },
+    {
+      "id": "b3-html-course",
+      "title": "Pemateri HTML Course",
+      "company": "B3 (Belajar Bareng BASIC)",
+      "type": "Teaching",
+      "location": "Indonesia",
+      "startDate": "2025-08-01",
+      "endDate": "2025-08-31",
+      "current": false,
+      "description": "Mengajar materi HTML dasar kepada peserta - struktur dokumen, semantik, dan praktik langsung.",
+      "responsibilities": [
+        "Mengajar struktur dan semantik HTML.",
+        "Mendampingi praktik langsung peserta."
+      ],
+      "technologies": [
+        "HTML",
+        "Teaching"
+      ],
+      "order": 2,
+      "featured": true,
+      "title_en": "HTML Course Instructor",
+      "company_en": "B3 (Belajar Bareng BASIC)",
+      "type_en": "Teaching",
+      "description_en": "Taught basic HTML to participants - document structure, semantics, and hands-on practice.",
+      "responsibilities_en": [
+        "Taught HTML structure and semantics.",
+        "Supported participants during hands-on practice."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "upj-informatika",
+      "institution": "Universitas Pembangunan Jaya",
+      "degree": "S1",
+      "field": "Informatika",
+      "startDate": "2023-01-01",
+      "endDate": "2027-12-31",
+      "current": true,
+      "description": "Fokus pada rekayasa perangkat lunak dan pengembangan web modern.",
+      "order": 1,
+      "degree_en": "Bachelor",
+      "field_en": "Informatics",
+      "description_en": "Focused on software engineering and modern web development."
+    },
+    {
+      "id": "smk-letris-multimedia",
+      "institution": "SMK Letris Indonesia 1",
+      "degree": "SMK",
+      "field": "Multimedia",
+      "startDate": "2021-01-01",
+      "endDate": "2023-12-31",
+      "current": false,
+      "description": "Fondasi desain multimedia sebelum mendalami software engineering.",
+      "order": 2,
+      "degree_en": "Vocational",
+      "field_en": "Multimedia",
+      "description_en": "A multimedia design foundation before moving deeper into software engineering."
+    }
+  ],
+  "skills": [
+    {
+      "id": "html-css",
+      "name": "HTML/CSS",
+      "category": "Frontend",
+      "description": "",
+      "order": 1,
+      "featured": true
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Frontend",
+      "description": "",
+      "order": 2,
+      "featured": true
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Frontend",
+      "description": "",
+      "order": 3,
+      "featured": true
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "Frontend",
+      "description": "",
+      "order": 4,
+      "featured": true
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "description": "",
+      "order": 5,
+      "featured": true
+    },
+    {
+      "id": "bootstrap",
+      "name": "Bootstrap",
+      "category": "Frontend",
+      "description": "",
+      "order": 6,
+      "featured": false
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "Backend",
+      "description": "",
+      "order": 7,
+      "featured": true
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "Backend",
+      "description": "",
+      "order": 8,
+      "featured": true
+    },
+    {
+      "id": "rest-api",
+      "name": "REST APIs",
+      "category": "Backend",
+      "description": "",
+      "order": 9,
+      "featured": true
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "Database",
+      "description": "",
+      "order": 10,
+      "featured": true
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "category": "Database",
+      "description": "",
+      "order": 11,
+      "featured": true
+    },
+    {
+      "id": "git-github",
+      "name": "Git/GitHub",
+      "category": "Tools",
+      "description": "",
+      "order": 12,
+      "featured": true
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "category": "Tools",
+      "description": "",
+      "order": 13,
+      "featured": false
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "Tools",
+      "description": "",
+      "order": 14,
+      "featured": false
+    }
+  ],
+  "messages": []
+}

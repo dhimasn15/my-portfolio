@@ -1,7 +1,7 @@
 import axios from 'axios';
 import 'server-only';
 
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME || process.env.NEXT_PUBLIC_GITHUB_USERNAME;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
 const githubApi = axios.create({
@@ -14,8 +14,7 @@ const githubApi = axios.create({
 export const getGitHubContributions = async () => {
   try {
     if (!GITHUB_USERNAME) {
-      console.error('GITHUB_USERNAME is undefined');
-      return null; 
+      return null;
     }
 
     const userResponse = await githubApi.get(`/users/${GITHUB_USERNAME}`);

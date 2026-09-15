@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@octokit/graphql": "^9.0.3",
+    "@vercel/blob": "^0.27.3",
     "axios": "^1.13.2",
     "framer-motion": "^10.16.16",
     "lucide-react": "^0.309.0",
     "next": "latest",
     "next-themes": "^0.4.6",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zod": "^4.6.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.23",
