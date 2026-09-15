@@ -23,7 +23,8 @@ export async function POST(request) {
     return NextResponse.json(item, { status: 201 });
   } catch (error) {
     console.error('admin create error:', error);
-    return NextResponse.json({ error: error.message || 'Create gagal' }, { status: 400 });
+    const status = error.code === 'CONTENT_STORAGE_NOT_CONFIGURED' ? 503 : 400;
+    return NextResponse.json({ error: error.message || 'Create gagal', code: error.code }, { status });
   }
 }
 
@@ -50,7 +51,8 @@ export async function PUT(request) {
     return NextResponse.json(updated);
   } catch (error) {
     console.error('admin update error:', error);
-    return NextResponse.json({ error: error.message || 'Update gagal' }, { status: 400 });
+    const status = error.code === 'CONTENT_STORAGE_NOT_CONFIGURED' ? 503 : 400;
+    return NextResponse.json({ error: error.message || 'Update gagal', code: error.code }, { status });
   }
 }
 
@@ -68,6 +70,7 @@ export async function DELETE(request) {
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error('admin delete error:', error);
-    return NextResponse.json({ error: error.message || 'Delete gagal' }, { status: 400 });
+    const status = error.code === 'CONTENT_STORAGE_NOT_CONFIGURED' ? 503 : 400;
+    return NextResponse.json({ error: error.message || 'Delete gagal', code: error.code }, { status });
   }
 }

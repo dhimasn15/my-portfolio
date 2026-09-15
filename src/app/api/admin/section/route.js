@@ -21,6 +21,7 @@ export async function PUT(request) {
     return NextResponse.json(updated);
   } catch (error) {
     console.error('admin section error:', error);
-    return NextResponse.json({ error: error.message || 'Update gagal' }, { status: 400 });
+    const status = error.code === 'CONTENT_STORAGE_NOT_CONFIGURED' ? 503 : 400;
+    return NextResponse.json({ error: error.message || 'Update gagal', code: error.code }, { status });
   }
 }

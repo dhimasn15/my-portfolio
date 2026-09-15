@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { getAdminSession } from '@/app/lib/admin-guard';
+import { isProductionRuntime } from '@/app/lib/github-content';
 import { put } from '@vercel/blob';
 
 const MAX_BYTES = 5 * 1024 * 1024; // 5MB
@@ -38,6 +39,12 @@ export async function POST(request) {
         addRandomSuffix: false,
       });
       return NextResponse.json({ url: blob.url, storage: 'vercel-blob' }, { status: 201 });
+    }
+    if (isProductionRuntime()) {
+      return NextResponse.json(
+        { error: 'Vercel Blob belum dikonfigurasi. Set BLOB_READ_WRITE_TOKEN di Vercel.', code: 'BLOB_NOT_CONFIGURED' },
+        { status: 503 }
+      );
     }
     const dir = path.join(process.cwd(), 'public', 'uploads', folder);
     await mkdir(dir, { recursive: true });

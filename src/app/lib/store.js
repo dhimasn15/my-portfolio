@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { isGitHubContentConfigured, readGitHubContent, writeGitHubContent } from '@/app/lib/github-content';
+import { assertContentStorageConfigured, isGitHubContentConfigured, readGitHubContent, writeGitHubContent } from '@/app/lib/github-content';
 
 const DB_PATH = path.join(process.cwd(), 'data', 'portfolio.json');
 
@@ -14,6 +14,7 @@ export async function getDB() {
 }
 
 export async function saveDB(db) {
+  assertContentStorageConfigured();
   if (isGitHubContentConfigured()) {
     await writeGitHubContent(db, 'Update portfolio content');
     return db;

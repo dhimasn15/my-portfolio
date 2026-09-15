@@ -2,6 +2,14 @@ import 'server-only';
 
 const DEFAULT_PATH = 'data/portfolio.json';
 
+export class ContentStorageError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = 'ContentStorageError';
+    this.code = 'CONTENT_STORAGE_NOT_CONFIGURED';
+  }
+}
+
 function config() {
   return {
     token: process.env.GITHUB_CONTENT_TOKEN,
@@ -15,6 +23,18 @@ function config() {
 export function isGitHubContentConfigured() {
   const { token, owner, repo } = config();
   return Boolean(token && owner && repo);
+}
+
+export function isProductionRuntime() {
+  return process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+}
+
+export function assertContentStorageConfigured() {
+  if (isProductionRuntime() && !isGitHubContentConfigured()) {
+    throw new ContentStorageError(
+      'GitHub content storage belum dikonfigurasi. Set GITHUB_CONTENT_TOKEN, GITHUB_OWNER, GITHUB_REPO, dan GITHUB_BRANCH di Vercel.'
+    );
+  }
 }
 
 function endpoint(path, cfg) {
